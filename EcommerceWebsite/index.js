@@ -22,7 +22,7 @@ setInterval(function() {
     myFun();
 }, 2000);
 
-// Card detail
+
 card.forEach(function(cards) {
     cards.addEventListener("click", function() {
         console.log(cards.firstElementChild.src);
